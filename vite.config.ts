@@ -7,12 +7,13 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     globals: true,
-    // Uncomment to work with Mui v7+
+    // #region Uncomment this code to work with Mui v7+
     // server: {
     //   deps: {
     //     fallbackCJS: true,
     //   },
     // },
+    // #endregion
   },
   plugins: [react(), tsconfigPaths()],
 });

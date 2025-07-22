@@ -5,7 +5,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // https://vite.dev/config/
 export default defineConfig({
   test: {
-    name: "mui7-scStyled-issue",
     environment: "jsdom",
     globals: true,
     // Uncomment to work with Mui v7+
